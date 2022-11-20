@@ -1,0 +1,95 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    margin: 12px auto;
+    display: block;
+    height: 90px;
+    width: 90px;
+}
+
+body {
+    background: url("https://wallpapers.com/images/hd/earth-surface-4k-space-bshep7a66431s5uk-bshep7a66431s5uk.webp") no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 865px;
+    height: 63vh;
+    margin: 2px auto 17px;
+    overflow-y: auto;
+}
+
+.messege {
+    background-color: beige;
+    border: 2px solid rgb(205, 180, 180);
+    width: 24%;
+    background-color: beige;
+    width: 25%;
+    padding: 5px 11px;
+    margin: 9px 7px;
+    border-radius: 20px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    font-size: 18px;
+    padding: 12px 14px;
+    font-family: cursive;
+}
+
+.right {
+    float: right;
+    clear: both;
+    padding: 12px 14px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+#send_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_messege{
+    width: 49.7%;
+    height: 28px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 7px 2px;
+    font-size: 18px;
+    padding: 6px 14px;
+    font-family: cursive;
+}
+
+.btn{
+    border: 2px solid gray;
+    margin: 3px 2px;
+    padding: 0px 13px;
+    border-radius: 20px;
+    background: white;
+    height: 32px;
+    /* align-items: center; */
+    font-size: 18px;
+    /* margin-bottom: 12p; */
+    font-family: cursive;
+    height: 41px;
+
+}
+
+.btn:hover{
+    background-color: rgb(149, 142, 142);
+}
+
+.navi h1{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 47px;
+    margin: 16px 0px;
+}
