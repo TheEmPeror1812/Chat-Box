@@ -4,6 +4,7 @@ const io = require('socket.io')(8000)
 const users = {};
 
 io.on('connection',socket =>{ // This line will connect all the users
+    // console.log("Server Started")
     socket.on('new-user.joined',name =>{  //This line handles when the new user or connection is done it will share the information of that new connection to everyone
         users[socket.id] = name;
         socket.broadcast.emit('user-joined',name);
